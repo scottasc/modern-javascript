@@ -1,0 +1,24 @@
+{
+  "name": "modern-javascript",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "watch": "webpack --progress --watch",
+    "server": "webpack-dev-server --open"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "animate.css": "^3.7.0",
+    "mathjs": "^5.2.0",
+    "moment": "^2.22.2",
+    "sweetalert": "^2.1.0"
+  },
+  "devDependencies": {
+    "webpack": "^4.20.2",
+    "webpack-cli": "^3.1.2",
+    "webpack-dev-server": "^3.1.9"
+  }
+}
